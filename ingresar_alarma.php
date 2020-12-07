@@ -6,7 +6,7 @@ $fecha = $_POST["Fecha"];
 
 $nombre = $_POST["nombre"];
 
-$telefono = $_POST["telefono"];
+$telefono = $_POST["tel"];
 
 
 $query = "INSERT INTO alarma VALUES ('".$nombre."','".$fecha."','".$telefono."',NULL)";

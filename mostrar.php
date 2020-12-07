@@ -2,7 +2,7 @@
 
 include 'conexion.php';
 
-$query = "SELECT * FROM alarma WHERE id >= 0";
+$query = "SELECT * FROM alarma WHERE id != 0";
 
 $ejecutar = mysqli_query($conexion, $query);
 

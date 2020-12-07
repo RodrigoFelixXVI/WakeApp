@@ -17,8 +17,10 @@ $ejecutar = mysqli_query($conexion, $query);
 $resultado = mysqli_fetch_array($ejecutar);
 
 if($ejecutar){
-	echo 1;
-	
+	echo 1;	
+}
+else{
+echo 2;
 }
 
 ?>

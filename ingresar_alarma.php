@@ -10,7 +10,7 @@ $telefono = filter_input(INPUT_POST, "tel");
 
 
 
-$query = "INSERT INTO alarma VALUES ('".$nombre."','".$hora."','".$telefono."',NULL)";
+$query = "INSERT INTO alarma VALUES ('".$nombre."','".$fecha."','".$telefono."',NULL)";
 
 $ejecutar = mysqli_query($conexion, $query);
 

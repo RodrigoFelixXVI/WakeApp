@@ -2,12 +2,11 @@
 
 include 'conexion.php';
 
-$fecha = filter_input(INPUT_POST, "Fecha");
+$fecha = $_POST["Fecha"];
 
-$nombre = filter_input(INPUT_POST, "nombre");
+$nombre = $_POST["nombre"];
 
-$telefono = filter_input(INPUT_POST, "tel");
-
+$telefono = $_POST["telefono"];
 
 
 $query = "INSERT INTO alarma VALUES ('".$nombre."','".$fecha."','".$telefono."',NULL)";

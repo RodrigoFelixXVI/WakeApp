@@ -10,7 +10,7 @@ $telefono = filter_input(INPUT_POST, "tel");
 
 
 
-$query = "DELETE FROM alarma WHERE Nombre = '".$nombre."' AND  Hora = '".$fecha."'";
+$query = "DELETE FROM alarma WHERE Nombre = '".$nombre."'";
 
 $ejecutar = mysqli_query($conexion, $query);
 
